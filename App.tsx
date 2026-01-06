@@ -9,7 +9,6 @@ import Certifications from './components/Certifications';
 import Experience from './components/Experience';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
-import ChatWidget from './components/ChatWidget';
 import ScrollToTop from './components/ScrollToTop';
 
 function App() {
@@ -26,7 +25,6 @@ function App() {
         <Projects />
         <Contact />
       </main>
-      <ChatWidget />
       <ScrollToTop />
     </div>
   );
